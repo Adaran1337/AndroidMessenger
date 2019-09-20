@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/messageLine"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingStart="10dp"
+    android:paddingTop="5dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/leftMessagePic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_face_black_48dp"
+        app:riv_border_color="#333333"
+        app:riv_border_width="0.5dp"
+        app:riv_corner_radius="30dp"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"
+         />
+
+    <LinearLayout
+        android:id="@+id/individMessageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/roundedmessages"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            tools:text="Таким образом, консультация с профессионалами из IT играет важную роль в формировании ключевых компонентов планируемого обновления. Значимость этих проблем настолько очевидна, что постоянное информационно-техническое обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации модели развития?" />
+
+    <TextView
+    android:id="@+id/senderTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:textSize="12sp"
+    tools:text="Sender" />
+
+
+
+
+
+    </LinearLayout>
+    <TextView
+    android:id="@+id/timetv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+    android:textSize="12sp"
+    android:textStyle="normal|bold" />
+</LinearLayout>

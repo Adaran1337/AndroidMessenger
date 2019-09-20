@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "606362535855",
+    "firebase_url": "https://mess-be6c8.firebaseio.com",
+    "project_id": "mess-be6c8",
+    "storage_bucket": "mess-be6c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606362535855:android:7740acccfe2d63c6",
+        "android_client_info": {
+          "package_name": "com.example.sanek.mess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606362535855-d1c9os355v96nf9gi3ejb735b4hi6kfg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sanek.mess",
+            "certificate_hash": "d4f8f3f14fecbee0d42d0d852fef3f93589ec2b5"
+          }
+        },
+        {
+          "client_id": "606362535855-q99sopodfoas78p4es89steqtep79asd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg7b6Bd1x8Qr29JdG9YyVc9hMaECa4OVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606362535855-q99sopodfoas78p4es89steqtep79asd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
